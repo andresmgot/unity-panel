@@ -30,7 +30,7 @@ It uses [React Unity WebGL](https://react-unity-webgl.dev/) to embed Unity WebGL
 
 Then make the plugin available in your Grafana instance.
 
-# Adapting games to be played in Grafana
+## Adapting games to be played in Grafana
 
 Check the [Unity build requirements](https://github.com/ertis-research/grafana-panel-unity/tree/main?tab=readme-ov-file#unity-build-requirements) for how to build your game for Grafana. In a nutshell, you need to:
 
@@ -50,7 +50,7 @@ public class Example : MonoBehaviour {
 }
 ```
 
-# Adding a new game panel
+## Adding a new game panel
 
 When adding a new game panel, you need to a link to the different files that the WebGL build needs to be able to run.
 
