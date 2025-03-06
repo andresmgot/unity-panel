@@ -49,3 +49,14 @@ public class Example : MonoBehaviour {
   }
 }
 ```
+
+# Adding a new game panel
+
+When adding a new game panel, you need to a link to the different files that the WebGL build needs to be able to run.
+
+- Loader URL
+- Data URL
+- Framework URL
+- Code URL (WASM)
+
+![screenshot](./img/screenshot.png)
